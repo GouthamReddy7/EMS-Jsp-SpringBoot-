@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.bill-heading {
+    background-color: #007bff;
+    font-size: 18px; /* Reduced font size */
+    font-weight: 600; /* Adjusted weight for readability */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-heading {
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0 10px;
+    text-align: left;
+}
+
+.search-section h2 {
+    font-size: 16px; /* Normal font size for Bill ID and Consumer ID */
+    font-weight: 500; /* Slightly lighter weight */
+    color: #333; /* Default color */
+    margin: 10px 0; /* Reduced margin for compact spacing */
+}
+
+.input-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease;
+}
+
+.input-box:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.bg-button {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.btn-reset {
+    background-color: #6c757d;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-reset:hover {
+    background-color: #818a8f; /* Lighter shade of gray */
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Darker shade of blue */
+}
+ 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .bill-heading {
+        font-size: 16px; /* Smaller size for smaller screens */
+        padding: 8px;
+            }
+   
+
+    .search-section h2 {
+        font-size: 14px; /* Adjusted for smaller screens */
+    }
+    
+
+    .input-box {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+}

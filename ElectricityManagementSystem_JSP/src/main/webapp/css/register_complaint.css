@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+  body {
+
+	font-family: 'Montserrat', sans-serif;
+
+    margin: 0;
+
+    padding: 20px;
+
+    background-color: #f5f5f5;
+
+  }
+
+
+
+  .header {
+ display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #dee2e6;
+
+  }
+
+
+  .container {
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 4px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+
+  .title-bar {
+
+    background-color: #007bff;
+    color: white;
+	font-family: "Montserrat";
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+
+
+  .form-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+
+  }
+
+
+
+  .form-group {
+
+    margin-bottom: 15px;
+
+  }
+
+
+
+  .form-group label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+  }
+
+
+
+  .form-group input,
+
+  .form-group select,
+
+  .form-group textarea {
+
+    width: 100%;
+
+    padding: 8px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+
+  }
+
+
+
+  .form-group textarea {
+
+    height: 100px;
+
+    resize: vertical;
+
+  }
+
+
+
+  .button-group {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+  }
+
+
+
+  .btn {
+
+    padding: 8px 20px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    margin: 0 10px;
+
+  }
+
+
+
+  .btn-cancel {
+
+    background-color: #6c757d;
+
+    color: white;
+
+  }
+
+  .btn-submit {
+
+    background-color: #007bff;
+
+    color: white;
+
+  }
+
+.btn-cancel:hover {
+    background-color: #818a8f; /* Lighter shade of gray */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Lighter shade of blue */
+}
+
+  .required::after {
+
+    content: " *";
+
+    color: red;
+
+  }
+ h2 {
+        color: #007bff;
+        margin-bottom: 20px;
+        font-family: "Montserrat";
+    }
+    
+footer {
+	background-color: #222;
+	color: #fff;
+	font-size: 14px;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 999;
+}
+
+footer p {
+	margin: 10px 0;
+	color: #fff;
+}
+
+footer i {
+	color: red;
+}
+
+footer a {
+	color: #3c97bf;
+	text-decoration: none;
+}
+.container {
+    padding-bottom: 60px; /* Ensure content does not overlap with the footer */
+}

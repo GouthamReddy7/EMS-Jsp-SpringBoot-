@@ -1,0 +1,135 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+	font-family: "Lucida Console";
+	background-color: #f0f8ff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.main-registration-card {
+	width: 80%;
+	max-width: 600px;
+	background-color: white;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-heading {
+	background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	color: white; /* Set the text color to white */
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px; /* Add some padding for better spacing */
+	border-radius: 8px; /* Optional: To give the box rounded corners */
+}
+
+.section-heading {
+	color: #FF4B2B;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.form-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+
+label {
+	width: 45%;
+	font-size: 14px;
+	color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select
+	{
+	width: 50%;
+	padding: 8px;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+}
+
+.required {
+	color: red;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.button {
+	padding: 8px 16px;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.button-reset {
+	background-color: grey;
+}
+
+.button-register {
+	background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+  #acknowledgment {
+	display: none;
+	text-align: center;
+	margin-top: 20px;
+	background-color: #e0f7fa;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	width: 100%; /* Adjusted to take the full width of the form */
+}
+
+.success-header {
+	font-size: 24px;
+	color: #00bfff;
+}
+
+.acknowledgment-content p {
+	margin: 10px 0;
+}
+
+.back-btn {
+	background-color: #00bfff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+select, input[type="text"], input[type="email"], input[type="password"]
+	{
+	height: 30px;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Lucida Console";
+	font-size: 15px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
